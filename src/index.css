@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-cream via-warm-gray to-cream text-deep-teal;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px rgba(13, 75, 78, 0.1);
+}
+
+.card-shadow:hover {
+  box-shadow: 0 8px 30px rgba(13, 75, 78, 0.15);
+}
