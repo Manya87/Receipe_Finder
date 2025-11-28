@@ -61,8 +61,7 @@ Replace `YOUR_USERNAME` with your GitHub username:
 
 ```powershell
 git remote add origin https://github.com/YOUR_USERNAME/spark_project.git
-git branch -M main
-git push -u origin main
+git push -u origin master
 ```
 
 ### Step 4: Enable GitHub Pages
