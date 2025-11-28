@@ -74,8 +74,7 @@ git commit -m "Initial commit with modern UI"
 git remote add origin https://github.com/yourusername/your-repo-name.git
 
 # Push to GitHub
-git branch -M main
-git push -u origin main
+git push -u origin master
 ```
 
 ### Step 3: Enable GitHub Pages
@@ -84,7 +83,7 @@ git push -u origin main
 2. Click **Settings** → **Pages**
 3. Under "Build and deployment":
    - Source: **GitHub Actions**
-4. The workflow will automatically deploy on every push to `main`
+4. The workflow will automatically deploy on every push to `master`
 
 Your site will be live at: `https://yourusername.github.io/your-repo-name/`
 
